@@ -1,4 +1,4 @@
-var Flower = window.Flower = Ember.Application.create();
+var Blog = window.Blog = Ember.Application.create();
 
 /* Order and include as you please. */
 require('scripts/controllers/*');

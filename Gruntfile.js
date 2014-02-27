@@ -217,6 +217,7 @@ module.exports = function (grunt) {
               variables: {
                 ember: 'bower_components/ember/ember.js',
                 ember_data: 'bower_components/ember-data/ember-data.js'
+	              , LSAdapter: 'bower_components/ember-localstorage-adapter/localstorage_adapter.js'
               }
             },
             files: [
@@ -228,6 +229,7 @@ module.exports = function (grunt) {
               variables: {
                 ember: 'bower_components/ember/ember.prod.js',
                 ember_data: 'bower_components/ember-data/ember-data.prod.js'
+	              , LSAdapter: 'bower_components/ember-localstorage-adapter/localstorage_adapter.js'
               }
             },
             files: [
