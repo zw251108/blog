@@ -1,0 +1,1 @@
+Flower.ApplicationAdapter = DS.FixtureAdapter;
